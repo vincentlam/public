@@ -1,0 +1,81 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "http://jsonschema.net",
+  "type": "object",
+  "properties": {
+    "clicked_at": {
+      "id": "http://jsonschema.net/clicked_at",
+      "type": "integer"
+    },
+    "user_agent": {
+      "id": "http://jsonschema.net/user_agent",
+      "type": "string"
+    },
+    "type": {
+      "id": "http://jsonschema.net/type",
+      "type": "string"
+    },
+    "ip": {
+      "id": "http://jsonschema.net/ip",
+      "type": "string"
+    },
+    "url": {
+      "id": "http://jsonschema.net/url",
+      "type": "string"
+    },
+    "user": {
+      "id": "http://jsonschema.net/user",
+      "type": "object",
+      "properties": {
+        "id": {
+          "id": "http://jsonschema.net/user/id",
+          "type": "integer"
+        },
+        "email": {
+          "id": "http://jsonschema.net/user/email",
+          "type": "string"
+        }
+      }
+    },
+    "campaign": {
+      "id": "http://jsonschema.net/campaign",
+      "type": "object",
+      "properties": {
+        "id": {
+          "id": "http://jsonschema.net/campaign/id",
+          "type": "integer"
+        },
+        "type": {
+          "id": "http://jsonschema.net/campaign/type",
+          "type": "string"
+        },
+        "name": "[object Object]",
+        "subject": {
+          "id": "http://jsonschema.net/campaign/subject",
+          "type": "string"
+        },
+        "trigger-event": {
+          "id": "http://jsonschema.net/campaign/trigger-event",
+          "type": "string"
+        },
+        "permalink": {
+          "id": "http://jsonschema.net/campaign/permalink",
+          "type": "string"
+        },
+        "variation": {
+          "id": "http://jsonschema.net/campaign/variation",
+          "type": "string"
+        }
+      }
+    }
+  },
+  "required": [
+    "clicked_at",
+    "user_agent",
+    "type",
+    "ip",
+    "url",
+    "user",
+    "campaign"
+  ]
+}

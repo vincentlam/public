@@ -1,0 +1,63 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"id": "/",
+	"type": "object",
+	"properties": {
+		"sent_at": {
+			"id": "sent_at",
+			"type": "number"
+		},
+		"type": {
+			"id": "type",
+			"type": "string"
+		},
+		"user": {
+			"id": "user",
+			"type": "object"
+			"properties": {
+				"id": {
+					"id": "id",
+					"type": "number"
+				}
+				"email": {
+					"id": "email",
+					"type": "string"
+				}
+			}
+		},
+		"campaign": {
+			"id": "campaign",
+			"type": "object",
+			"properties": {
+				"id": {
+					"id": "id",
+					"type": "string"
+				}
+				"type": {
+					"id": "type",
+					"type": "string"
+				}
+				"name": {
+					"id": "name",
+					"type": "string"
+				}
+				"subject": {
+					"id": "subject",
+					"type": "subject
+				}
+				"trigger-event": {
+					"id": "trigger-event",
+					"type": "string"
+				}
+				"permalink": {
+					"id": "permalink",
+					"type": "string"
+				}
+				"variation": {
+					"id": "variation",
+					"type": "string"
+				}
+			}
+		}
+	}
+}
