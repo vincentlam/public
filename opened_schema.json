@@ -45,7 +45,10 @@
           "id": "http://jsonschema.net/campaign/type",
           "type": "string"
         },
-        "name": "[object Object]",
+        "name": {
+          "id": "http://jsonschema.net/campaign/name",
+          "type": "string"
+        },
         "subject": {
           "id": "http://jsonschema.net/campaign/subject",
           "type": "string"

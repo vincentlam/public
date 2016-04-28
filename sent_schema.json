@@ -13,12 +13,12 @@
 		},
 		"user": {
 			"id": "user",
-			"type": "object"
+			"type": "object",
 			"properties": {
 				"id": {
 					"id": "id",
 					"type": "number"
-				}
+				},
 				"email": {
 					"id": "email",
 					"type": "string"
@@ -32,27 +32,27 @@
 				"id": {
 					"id": "id",
 					"type": "string"
-				}
+				},
 				"type": {
 					"id": "type",
 					"type": "string"
-				}
+				},
 				"name": {
 					"id": "name",
 					"type": "string"
-				}
+				},
 				"subject": {
 					"id": "subject",
-					"type": "subject
-				}
+					"type": "string"
+				},
 				"trigger-event": {
 					"id": "trigger-event",
 					"type": "string"
-				}
+				},
 				"permalink": {
 					"id": "permalink",
 					"type": "string"
-				}
+				},
 				"variation": {
 					"id": "variation",
 					"type": "string"
